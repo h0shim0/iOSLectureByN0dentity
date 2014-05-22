@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22EB6F1192E4D3D0010B3A4 /* MyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B22EB6F0192E4D3D0010B3A4 /* MyViewController2.m */; };
 		B2CE14F0192E407800E8C2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE14EF192E407800E8C2CA /* Foundation.framework */; };
 		B2CE14F2192E407800E8C2CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE14F1192E407800E8C2CA /* CoreGraphics.framework */; };
 		B2CE14F4192E407800E8C2CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CE14F3192E407800E8C2CA /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B22EB6EF192E4D3D0010B3A4 /* MyViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController2.h; sourceTree = "<group>"; };
+		B22EB6F0192E4D3D0010B3A4 /* MyViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController2.m; sourceTree = "<group>"; };
 		B2CE14EC192E407800E8C2CA /* BCGenieEffectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCGenieEffectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2CE14EF192E407800E8C2CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2CE14F1192E407800E8C2CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				B2CE1508192E407800E8C2CA /* MyViewController.m */,
 				B2CE150A192E407800E8C2CA /* Images.xcassets */,
 				B2CE14F6192E407800E8C2CA /* Supporting Files */,
+				B22EB6EF192E4D3D0010B3A4 /* MyViewController2.h */,
+				B22EB6F0192E4D3D0010B3A4 /* MyViewController2.m */,
 			);
 			path = BCGenieEffectTest;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2CE1509192E407800E8C2CA /* MyViewController.m in Sources */,
+				B22EB6F1192E4D3D0010B3A4 /* MyViewController2.m in Sources */,
 				B2CE1500192E407800E8C2CA /* MyAppDelegate.m in Sources */,
 				B2CE14FC192E407800E8C2CA /* main.m in Sources */,
 			);
@@ -471,6 +477,7 @@
 				B2CE1523192E407800E8C2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2CE1524192E407800E8C2CA /* Build configuration list for PBXNativeTarget "BCGenieEffectTestTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				B2CE1526192E407800E8C2CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

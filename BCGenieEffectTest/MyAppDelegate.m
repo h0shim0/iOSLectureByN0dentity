@@ -7,12 +7,31 @@
 //
 
 #import "MyAppDelegate.h"
+#import "MyViewController.h"
+#import "MyViewController2.h"
 
 @implementation MyAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // windowを自分で作成
+    
+    CGRect bounds = [[UIScreen mainScreen] bounds];
+    _window = [[UIWindow alloc] initWithFrame:bounds];
+    
+    // MyViewController1とMyViewController2を作成して，
+    // そのviewをそれぞれwindowに追加
+    myViewController_ = [[MyViewController alloc] init];
+    myViewController2_ = [[MyViewController2 alloc] init];
+    [_window addSubview:myViewController_.view];
+    [_window addSubview:myViewController2_.view];
+    
+    // MyViewControllerの方のviewを前面に出す
+    [_window bringSubviewToFront:myViewController_.view];
+    
+    [_window makeKeyAndVisible];
     return YES;
 }
 							
